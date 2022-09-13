@@ -24,18 +24,6 @@ html {
   overflow: hidden;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 *,
 *::before,
 *::after {
@@ -389,6 +377,8 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid;
+  border-bottom-style: inset;
 }
 
 .projects-item:nth-child(3n) {
