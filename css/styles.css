@@ -190,6 +190,7 @@ img {
 /* Hero */
 
 .hero {
+  display: flex;
   text-align: center;
   width: 1600px;
   margin: 0 auto;
