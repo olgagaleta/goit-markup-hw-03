@@ -330,6 +330,7 @@ img {
 .team {
   background-color: var(--third-bg-color);
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-list {
@@ -376,6 +377,7 @@ border-radius: 0px 0px 4px 4px;
 .projects {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 
 .projects-item {
